@@ -42,7 +42,7 @@ const getFinancialAdvice = async (totalBudget, totalIncome, totalSpend) => {
   catch (error) {
     console.error('Error fetching financial advice:', error);
     return `Based on the given data:
-  
+    
   Total Budget: $37,000
   Expenses: $27,300
   Incomes: $60,000
